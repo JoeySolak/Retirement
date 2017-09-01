@@ -10,11 +10,11 @@ function retire(age){
     //write three separate conditional statements to say when you can take out money.
 
     //first if your age is older than the retirementAge
-if(age>retirmentAge){
+if(age > retirementAge){
 console.log("take money out");
 }
     //second if your age is equal to the retirementAge
-else if(age==retirementAge){
+else if(age == retirementAge){
 console.log("take money out");
 }
     //third if your age is younger than the retirementAge
