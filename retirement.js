@@ -1,9 +1,10 @@
 //Function declarations
+function deposit(money,account){
+
+}
 function retire(age){
-    let year; //set current year
-    2017;
-    let retirementAge; //set current retirement age
-    65;
+    let year = 2017; //set current year
+    let retirementAge = 65; //set current retirement age
     let diff = retirementAge - age;
 
     //write three separate conditional statements to say when you can take out money.
@@ -13,11 +14,11 @@ if(age>retirmentAge){
 console.log("take money out");
 }
     //second if your age is equal to the retirementAge
-if(age=retirementAge){
+else if(age==retirementAge){
 console.log("take money out");
 }
     //third if your age is younger than the retirementAge
-if(age<retirmentAge){
+else
 console.log("don't take money out");
 }
 
